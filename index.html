@@ -1,991 +1,998 @@
-<!-- /*
-* Template Name: Minimal
-* Template Author: Untree.co
-* Author URI: https://untree.co/
-* License: https://creativecommons.org/licenses/by/3.0/
-*/ -->
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="author" content="Untree.co">
-  <link rel="shortcut icon" href="favicon.png">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <meta name="description" content="" />
-  <meta name="keywords" content="" />
+  <!-- 
+    - primary meta tags
+  -->
+  <title>VIRUS PHOTOGRAPH</title>
+  <meta name="title" content="Richard Ryan">
+  <meta name="description" content="This is a photographer portfolio html template, made by codewithsadee.">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=PT+Mono&display=swap" rel="stylesheet">
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
 
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
-  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
-  <link rel="stylesheet" href="fonts/icomoon/style.css">
-  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-  <link rel="stylesheet" href="css/aos.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/stylee.css">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
-  <title>Minimal Portfolio.</title>
-  
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
 
+  <!-- 
+    - custom font link
+  -->
+  <link rel="stylesheet" href="./assets/font/font.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/loading.svg">
+  <link rel="preload" as="image" href="./assets/images/loading-circle.svg">
 
 </head>
 
-<body data-spy="scroll" data-target=".site-navbar-target" data-offset="100">
-  <div class="lines-wrap">
-    <div class="lines-inner">
-      <div class="lines"></div>
-    </div>
-  </div>
-  <!-- END lines -->
+<body class="active" id="top">
 
-  <div class="site-mobile-menu site-navbar-target">
-    <div class="site-mobile-menu-header">
-      <div class="site-mobile-menu-close">
-        <span class="icofont-close js-menu-toggle"></span>
-      </div>
-    </div>
-    <div class="site-mobile-menu-body"></div>
+  <!-- 
+    -#PRELOADING
+  -->
+
+  <div class="loading" data-loading>
+    <div class="virus">virus </div>
+    <!-- <img src="./assets/images/loading.svg" width="55" height="55" alt="loading" class="img"> -->
+    <img src="./assets/images/loading-circle.svg" width="70" height="70" alt="" class="circle">
   </div>
-  
-  
-  <nav class="site-nav dark mb-5 site-navbar-target">
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
     <div class="container">
-      <div class="site-navigation">
-        
-        </div> <a href="index.html" class="logo m-0">Minimal.<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Face%20Exhaling.png" alt="Face Exhaling" width="25" height="25">
-          </div>
-          
-          
-        
+      <h1>virus ..</h1>
 
-        
+      <!-- <a href="#" class="logo">
+        <img src="./assets/images/logo.svg" width="40" height="40" alt="Richard home">
+      </a> -->
 
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <img src="./assets/images/menu.svg" width="17" height="17" alt="menu icon">
+      </button>
 
+      <nav class="navbar" data-navbar>
 
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <h1> virus..</h1>
+            
+            <!-- <img src="./assets/images/nav-logo.svg" width="140" height="40" alt="Richard home" class="img"> -->
+          </a>
 
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <span class="span one"></span>
+            <span class="span two"></span>
+          </button>
+        </div>
 
-        <ul class="js-clone-nav d-none d-lg-inline-none site-menu float-right site-nav-wrap">
-          <li><a href="#home-section" class="nav-link active">Home </a></li>
-          <li><a href="#portfolio-section" class="nav-link">Portfolio</a></li>
-          <li class="has-children">
-            <a href="#about-section" class="nav-link">About</a>
-            <ul class="dropdown">
-              <li><a href="elements.html" class="nav-link">Elements</a></li>
-              <li class="has-children">
-                <a href="#">Menu Two</a>
-                <ul class="dropdown">
-                  <li><a href="#" class="nav-link">Sub Menu One</a></li>
-                  <li><a href="#" class="nav-link">Sub Menu Two</a></li>
-                  <li><a href="#" class="nav-link">Sub Menu Three</a></li>
-                </ul>
-              </li>
-              <li><a href="#" class="nav-link">Menu Three</a></li>
-            </ul>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
           </li>
-          <li><a href="#services-section" class="nav-link">Services</a></li>
 
-          <li><a href="#contact-section" class="nav-link">Contact us</a></li>
+          <li class="navbar-item">
+            <a href="#gallery" class="navbar-link" data-nav-link>Gallery</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#services" class="navbar-link" data-nav-link>Services</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#portfolio" class="navbar-link" data-nav-link>Portfolio</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#contact" class="navbar-link" data-nav-link>Contact us</a>
+          </li>
+
         </ul>
 
-        <a href="#" class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-inline-block" data-toggle="collapse" data-target="#main-navbar">
-          <span></span>
+        <button class="login-btn">
+          <img src="./assets/images/user.svg" width="21" height="21" alt="user icon">
+
+          <span class="span">Login</span>
+        </button>
+
+        <p class="navbar-title">My Address</p>
+
+        <address class="navbar-text">
+          India, Lucknow 
+        </address>
+
+        <p class="navbar-text">
+           call us at
+          <a href="tel:8085613846" class="contact-link">808-561-3846</a>
+        </p>
+
+      </nav>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="home">
+        <div class="container">
+
+          <img src="./assets/images/vikram.png" width="322" height="322" alt="" class="hero-banner">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Srishti</h1>
+
+            <div class="wrapper h2">
+              <strong class="strong" data-letter-effect>Photographer</strong>
+              <strong class="strong" data-letter-effect>Shutterbug</strong>
+              <strong class="strong" data-letter-effect>Cameraman</strong>
+              <strong class="strong" data-letter-effect>Pacific Portraits</strong>
+            </div>
+
+            <p class="hero-text">10+ Years Of Experience</p>
+
+          </div>
+
+        </div>
+
+        <img src="./assets/images/hero-shape.svg" width="211" height="189" alt="" class="shape">
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #GALLERY
+      -->
+
+      <section class="section gallery" id="gallery">
+        <div class="container">
+
+          <ul class="gallery-list">
+
+            <li class="gallery-item" data-reveal>
+
+              <div class="gallery-card">
+
+                <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+                  <img src="./assets/images/1.jpg" width="450" height="625" loading="lazy" alt="The Drunken"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h6">
+                    <a href="#" class="card-title">Lip Butter</a>
+                  </h3>
+
+                  <span class="card-tag"> product </span>
+                </div>
+
+                <a href="#" class="btn-icon">
+                  <img src="./assets/images/arrow-forward.svg" width="43" height="20" loading="lazy"
+                    alt="arrow-forward icon">
+                </a>
+
+              </div>
+
+              <div class="gallery-card">
+
+                <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+                  <img src="./assets/images/9.jpg" width="450" height="625" loading="lazy"
+                    alt="Lettuce Entertain" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h6">
+                    <a href="#" class="card-title">Bioglow</a>
+                  </h3>
+
+                  <span class="card-tag">product </span>
+                </div>
+
+                <a href="#" class="btn-icon">
+                  <img src="./assets/images/arrow-forward.svg" width="43" height="20" loading="lazy"
+                    alt="arrow-forward icon"  class="img-cover">
+                </a>
+
+              </div>
+
+            </li>
+
+            <li class="gallery-item" data-reveal>
+
+              <div class="gallery-card">
+
+                <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+                  <img src="./assets/images/3.jpg" width="450" height="625" loading="lazy" alt="Leaping Lizard"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h6">
+                    <a href="#" class="card-title">Ubtn</a>
+                  </h3>
+
+                  <span class="card-tag">product </span>
+                </div>
+
+                <a href="#" class="btn-icon">
+                  <img src="./assets/images/arrow-forward.svg" width="43" height="20" loading="lazy"
+                    alt="arrow-forward icon">
+                </a>
+
+              </div>
+
+              <div class="gallery-card">
+
+                <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+                  <img src="./assets/images/5.jpg" width="450" height="625" loading="lazy" alt="Juan More Taco"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h6">
+                    <a href="#" class="card-title">Blissible </a>
+                  </h3>
+
+                  <span class="card-tag">Product </span>
+                </div>
+
+                <a href="#" class="btn-icon">
+                  <img src="./assets/images/arrow-forward.svg" width="43" height="20" loading="lazy"
+                    alt="arrow-forward icon">
+                </a>
+
+              </div>
+
+            </li>
+
+            <li class="gallery-item" data-reveal>
+
+              <div class="gallery-card">
+
+                <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+                  <img src="./assets/images/6.jpg" width="450" height="625" loading="lazy" alt="Goldilox Bagels"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h6">
+                    <a href="#" class="card-title">Blissible </a>
+                  </h3>
+
+                  <span class="card-tag">product </span>
+                </div>
+
+                <a href="#" class="btn-icon">
+                  <img src="./assets/images/arrow-forward.svg" width="43" height="20" loading="lazy"
+                    alt="arrow-forward icon">
+                </a>
+
+              </div>
+
+              <div class="gallery-card">
+
+                <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+                  <img src="./assets/images/7.jpg" width="450" height="625" loading="lazy" alt="Cookie Monstah"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h6">
+                    <a href="#" class="card-title">Blissible Eye linear </a>
+                  </h3>
+
+                  <span class="card-tag">poduct</span>
+                </div>
+
+                <a href="#" class="btn-icon">
+                  <img src="./assets/images/arrow-forward.svg" width="43" height="20" loading="lazy"
+                    alt="arrow-forward icon">
+                </a>
+
+              </div>
+
+            </li>
+
+            <li class="gallery-item" data-reveal>
+
+              <div class="gallery-card">
+
+                <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+                  <img src="./assets/images/img_1.jpg" width="450" height="625" loading="lazy"
+                    alt="Divine Pastabilities" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h6">
+                    <a href="#" class="card-title">Rose water </a>
+                  </h3>
+
+                  <span class="card-tag">Product </span>
+                </div>
+
+                <a href="#" class="btn-icon">
+                  <img src="./assets/images/arrow-forward.svg" width="43" height="20" loading="lazy"
+                    alt="arrow-forward icon">
+                </a>
+
+              </div>
+
+              <div class="gallery-card">
+
+                <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+                  <img src="./assets/images/10.jpg" width="450" height="625" loading="lazy"
+                    alt="The Lockhart Bar" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h6">
+                    <a href="#" class="card-title">HD STUDIO BB CREAM</a>
+                  </h3>
+
+                  <span class="card-tag">Product</span>
+                </div>
+
+                <a href="#" class="btn-icon">
+                  <img src="./assets/images/arrow-forward.svg" width="43" height="20" loading="lazy"
+                    alt="arrow-forward icon">
+                </a>
+
+              </div>
+
+            </li>
+
+          </ul>
+
+          <a href="#service" class="scroll-down">
+            <img src="./assets/images/scroll-down.svg" width="40" height="66" loading="lazy" alt="mouse scroll">
+          </a>
+
+          <img src="./assets/images/gallery-shape.svg" width="220" height="78" loading="lazy" alt="" class="shape">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CATEGORY
+      -->
+
+      <section class="section category" aria-label="photography category">
+        <div class="container">
+
+          <ul class="category-list">
+
+            <li class="category-item" data-reveal>
+              <a href="#" class="category-card">
+
+                <h3 class="h4 card-title">Model,</h3>
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="./assets/images/category-1.jpg" width="600" height="690" loading="lazy" alt="Landscape"
+                    class="img-cover">
+                </figure>
+
+              </a>
+            </li>
+
+            <li class="category-item" data-reveal>
+              <a href="#" class="category-card">
+
+                <h3 class="h4 card-title">Cameraman </h3>
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="./assets/images/category-2.jpg" width="600" height="690" loading="lazy" alt="Model"
+                    class="img-cover">
+                </figure>
+
+              </a>
+            </li>
+
+            <li class="category-item" data-reveal>
+              <a href="#" class="category-card">
+
+                <h3 class="h4 card-title">shooting,</h3>
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="./assets/images/category-3.jpg" width="600" height="690" loading="lazy" alt="Street"
+                    class="img-cover">
+                </figure>
+
+              </a>
+            </li>
+
+            <li class="category-item" data-reveal>
+              <a href="#" class="category-card">
+
+                <h3 class="h4 card-title">Promotion,</h3>
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="./assets/images/category-4.jpg" width="600" height="690" loading="lazy" alt="Product"
+                    class="img-cover">
+                </figure>
+
+              </a>
+            </li>
+
+            <li class="category-item" data-reveal>
+              <a href="#" class="category-card">
+
+                <h3 class="h4 card-title">Fashion,</h3>
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="./assets/images/category-2.jpg" width="600" height="690" loading="lazy" alt="Fashion"
+                    class="img-cover">
+                </figure>
+
+              </a>
+            </li>
+
+            <li class="category-item" data-reveal>
+              <a href="#" class="category-card">
+
+                <h3 class="h4 card-title">Film,</h3>
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="./assets/images/category-5.jpg" width="600" height="690" loading="lazy" alt="Film"
+                    class="img-cover">
+                </figure>
+
+              </a>
+            </li>
+
+            <li class="category-item" data-reveal>
+              <a href="#" class="category-card">
+
+                <h3 class="h4 card-title">Flower,</h3>
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="./assets/images/category-6.jpg" width="600" height="690" loading="lazy" alt="Architecture"
+                    class="img-cover">
+                </figure>
+
+              </a>
+            </li>
+
+            <li class="category-item" data-reveal>
+              <a href="#" class="category-card">
+
+                <h3 class="h4 card-title"><S></S>Styling,</h3>
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="./assets/images/category-7.jpg" width="600" height="690" loading="lazy" alt="Event"
+                    class="img-cover">
+                </figure>
+
+              </a>
+            </li>
+
+            <li class="category-item" data-reveal>
+              <a href="#" class="category-card">
+
+                <h3 class="h4 card-title">Wedding,</h3>
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="./assets/images/category-8.jpg" width="600" height="690" loading="lazy" alt="Wedding"
+                    class="img-cover">
+                </figure>
+
+              </a>
+            </li>
+
+            <li class="category-item" data-reveal>
+              <a href="#" class="category-card">
+
+                <h3 class="h4 card-title">Product,</h3>
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="./assets/images/category-9.jpg" width="600" height="690" loading="lazy" alt="People"
+                    class="img-cover">
+                </figure>
+
+              </a>
+            </li>
+
+            <li class="category-item" data-reveal>
+              <a href="#" class="category-card">
+
+                <h3 class="h4 card-title">Styling,</h3>
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="./assets/images/category-7.jpg" width="600" height="690" loading="lazy" alt="Event"
+                    class="img-cover">
+                </figure>
+
+              </a>
+            </li>
+
+            <li class="category-item" data-reveal>
+              <a href="#" class="category-card">
+
+                <h3 class="h4 card-title">Food,</h3>
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="./assets/images/category-10.jpg" width="600" height="690" loading="lazy" alt="Food"
+                    class="img-cover">
+                </figure>
+
+              </a>
+            </li>
+
+            <!-- <li class="category-item" data-reveal>
+              <h3 href="#" class="category-card">
+
+                <h3 class="h4 card-title">BEAUTY,</h3>
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="./assets/images/category-11.jpg" width="600" height="690" loading="lazy"
+                    alt="Health & Wellnes" class="img-cover">
+                </figure>
+
+              </a>
+            </li> -->
+            <li class="category-item" data-reveal>
+              <a href="#" class="category-card">
+
+                <h3 class="h4 card-title">Flower,</h3>
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="./assets/images/ROSE.jpg" width="600" height="690" loading="lazy" alt="Event"
+                    class="img-cover">
+                </figure>
+
+              </a>
+            </li>
+
+
+
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about me">
+        <div class="container">
+
+          <div class="about-content">
+
+            <h2 class="h2 section-title" data-reveal="right">
+              Hi. I’m <br>
+              Srishti
+            </h2>
+
+            <div class="wrapper has-before" data-reveal="right">
+
+              <p class="section-text">
+                A passionate
+                <em class="em">photograher</em>
+                who are working in this field for
+                <em class="em">last 10 years.</em>
+                I’m ready to give you my best.
+              </p>
+
+              <img src="./assets/images/signatre1.png" width="151" height="151" loading="lazy" alt="signature" 
+                class="VIKRAM">
+
+            </div>
+
+          </div>
+
+          <figure class="about-banner" data-reveal="left">
+
+            <div class="img-holder has-before" style="--width: 512; --height: 684;">
+              <img src="./assets/images/about-banner.jpg" width="512" height="684" loading="lazy" alt="Riachard Ryan"
+                class="img-cover">
+            </div>
+
+            <!-- <img src="./assets/images/vikram.png" width="50" height="50" loading="lazy" alt=""
+              class="shape shape-1"> -->
+
+            <img src="./assets/images/about-shape-2.svg" width="659" height="653" loading="lazy" alt=""
+              class="shape shape-2">
+
+          </figure>
+
+          <img src="./assets/images/about-shape-3.svg" width="239" height="232" loading="lazy" alt=""
+            class="shape shape-3">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="service" aria-labelledby="service-lable">
+
+        <p class="section-subtitle container" id="service-lable">My Services</p>
+
+        <ul class="service-list">
+
+          <li data-reveal>
+            <div class="service-card container">
+
+              <img src="./assets/images/service-1.jpg" width="100" height="50" loading="lazy" alt="Wedding Photography"
+                class="img">
+
+              <div>
+                <h3 class="h3 card-title">Wedding Photography</h3>
+
+                <p class="card-subtitle">
+                  "Forever Yours: Capturing Love and Joy through Wedding Photography".
+                </p>
+              </div>
+
+              <a href="#" class="btn-icon" aria-label="See more">
+                <svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewBox="0 0 43 20" fill="none">
+                  <path d="M0 10H41" stroke="white" stroke-width="2" />
+                  <path d="M33 1L41.9 10.2727L33 19" stroke="white" stroke-width="2" />
+                </svg>
+              </a>
+
+            </div>
+          </li>
+
+          <li data-reveal>
+            <div class="service-card container">
+
+              <img src="./assets/images/service-2.jpg" width="100" height="50" loading="lazy" alt="Event Organiser"
+                class="img">
+
+              <div>
+                <h3 class="h3 card-title">Candid photography  </h3>
+
+                <p class="card-subtitle">
+                  "Unveiling Life's True Essence: The Art of Candid Photography"
+                </p>
+              </div>
+
+              <a href="#" class="btn-icon" aria-label="See more">
+                <svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewBox="0 0 43 20" fill="none">
+                  <path d="M0 10H41" stroke="white" stroke-width="2" />
+                  <path d="M33 1L41.9 10.2727L33 19" stroke="white" stroke-width="2" />
+                </svg>
+              </a>
+
+            </div>
+          </li>
+
+          <li data-reveal>
+            <div class="service-card container">
+
+              <img src="./assets/images/service-3.jpg" width="100" height="50" loading="lazy" alt="Product Marketing"
+                class="img">
+
+              <div>
+                <h3 class="h3 card-title">Product Marketing</h3>
+
+                <p class="card-subtitle">
+                  "Unlocking Potential: Strategies for Successful Product Marketing".
+                </p>
+              </div>
+
+              <a href="#" class="btn-icon" aria-label="See more">
+                <svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewBox="0 0 43 20" fill="none">
+                  <path d="M0 10H41" stroke="white" stroke-width="2" />
+                  <path d="M33 1L41.9 10.2727L33 19" stroke="white" stroke-width="2" />
+                </svg>
+              </a>
+
+            </div>
+          </li>
+
+          <li data-reveal>
+            <div class="service-card container">
+
+              <img src="./assets/images/service-4.jpg" width="100" height="50" loading="lazy" alt="Videography"
+                class="img">
+
+              <div>
+                <h3 class="h3 card-title">Videography</h3>
+
+                <p class="card-subtitle">
+                  "Capturing Moments, Crafting Stories: The Journey of a Videographer".
+                </p>
+              </div>
+
+              <a href="#" class="btn-icon" aria-label="See more">
+                <svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewBox="0 0 43 20" fill="none">
+                  <path d="M0 10H41" stroke="white" stroke-width="2" />
+                  <path d="M33 1L41.9 10.2727L33 19" stroke="white" stroke-width="2" />
+                </svg>
+              </a>
+
+            </div>
+          </li>
+
+        </ul>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PORTFOLIO
+      -->
+
+      <section class="section portfolio" id="portfolio" aria-labelledby="portfolio-label">
+        <div class="container">
+
+          <div class="portfolio-list">
+
+            <div class="wrapper">
+
+              <h2 class="h2 section-title" id="portfolio-label" data-reveal>My Recent Work.</h2>
+
+              <div class="portfolio-card" data-reveal>
+
+                <figure class="card-banner img-holder has-before" style="--width: 700; --height: 605;">
+                  <img src="./assets/images/portfolio-1.jpg" width="700" height="605" loading="lazy" alt="Shoe Promo"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h4">
+                    <a href="#" class="card-title">OPPO Find X5</a>
+                  </h3>
+
+                  <p class="card-tag">Mobile photogaphy </p>
+                </div>
+
+                <a href="#" class="btn-icon" aria-label="See more">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewBox="0 0 43 20" fill="none">
+                    <path d="M0 10H41" stroke="black" stroke-width="2" />
+                    <path d="M33 1L41.9 10.2727L33 19" stroke="black" stroke-width="2" />
+                  </svg>
+                </a>
+
+              </div>
+
+              <div class="portfolio-card" data-reveal>
+
+                <figure class="card-banner img-holder has-before" style="--width: 700; --height: 1091;">
+                  <img src="./assets/images/portfolio-2.jpg" width="700" height="1091" loading="lazy" alt="Wedding Shot"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h4">
+                    <a href="#" class="card-title">Boat</a>
+                  </h3>
+
+                  <p class="card-tag">product photography </p>
+                </div>
+
+                <a href="#" class="btn-icon" aria-label="See more">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewBox="0 0 43 20" fill="none">
+                    <path d="M0 10H41" stroke="black" stroke-width="2" />
+                    <path d="M33 1L41.9 10.2727L33 19" stroke="black" stroke-width="2" />
+                  </svg>
+                </a>
+
+              </div>
+
+            </div>
+
+            <div class="wrapper">
+
+              <div class="portfolio-card" data-reveal>
+
+                <figure class="card-banner img-holder has-before" style="--width: 700; --height: 1000;">
+                  <img src="./assets/images/portfolio-3.jpg" width="700" height="1000" loading="lazy" alt="Fashion Show"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h4">
+                    <a href="#" class="card-title">OPPO Find N2 Flip </a>
+                  </h3>
+
+                  <p class="card-tag">Model</p>
+                </div>
+
+                <a href="#" class="btn-icon" aria-label="See more">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewBox="0 0 43 20" fill="none">
+                    <path d="M0 10H41" stroke="black" stroke-width="2" />
+                    <path d="M33 1L41.9 10.2727L33 19" stroke="black" stroke-width="2" />
+                  </svg>
+                </a>
+
+              </div>
+
+              <div class="portfolio-card" data-reveal>
+
+                <figure class="card-banner img-holder has-before" style="--width: 700; --height: 850;">
+                  <img src="./assets/images/portfolio-4.jpg" width="700" height="850" loading="lazy" alt="Jumbo Barger"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h4">
+                    <a href="#" class="card-title"> Red is uplifting ❤️</a>
+                  </h3>
+
+                  <p class="card-tag">Mobile</p>
+                </div>
+
+                <a href="#" class="btn-icon" aria-label="See more">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewBox="0 0 43 20" fill="none">
+                    <path d="M0 10H41" stroke="black" stroke-width="2" />
+                    <path d="M33 1L41.9 10.2727L33 19" stroke="black" stroke-width="2" />
+                  </svg>
+                </a>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <img src="./assets/images/portfolio-shape.svg" width="286" height="232" loading="lazy" alt="" class="shape">
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top section" id="contact">
+      <div class="container">
+
+        <p class="section-subtitle" data-reveal>Contact Us</p>
+
+        <h2 class="h2 section-title" data-reveal>
+          Work inquiry, Hire me, Send Message.
+        </h2>
+
+        <a href="#" class="btn-icon" data-reveal>
+          <img src="./assets/images/arrow-forward.svg" width="43" height="20" loading="lazy" alt="arrow-forward icon">
         </a>
 
-      </div>
-    </div>
-  </nav>
+        <img src="./assets/images/footer-1.png" width="159" height="176" loading="lazy" alt="photography"
+          class="abs-img abs-img-1" data-reveal>
 
+        <img src="./assets/images/footer-2.jpg" width="265" height="275" loading="lazy" alt="photography"
+          class="abs-img abs-img-2" data-reveal>
 
+        <img src="./assets/images/footer-3.jpg" width="303" height="272" loading="lazy" alt="photography"
+          class="abs-img abs-img-3" data-reveal>
 
-  <div class="untree_co-section pb-0" id="home-section">
-    <div class="container">
-      <div class="row justify-content-center text-center">
-        <div class="col-md-7">
-             <h1 class="animated flip"><strong>Minimal<span class="text-primary">.</span> Portfolio</strong></h1>
-          <!-- <h1 class="heading gsap-reveal-hero mb-3"><strong>Minimal<span class="text-primary">.</span> Portfolio</strong></h1> -->
-          <h2 class="subheading gsap-reveal-hero mb-4">
-            "Transform Your Experience Elevate Everyday Living with Our Exceptional Product Selection and Unparalleled Service"</h2>
-          <p class="shake"> <a href="https://www.instagram.com/virusphotography100" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i> </a> 
-            
-        </p>
- 
-</div>  
-</div>
-      </div>
-      
+        <img src="./assets/images/footer-4.jpg" width="175" height="175" loading="lazy" alt="photography"
+          class="abs-img abs-img-4" data-reveal>
 
+        <img src="./assets/images/footer-shape.svg" width="185" height="134" loading="lazy" alt="" class="shape">
 
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-    
-   
-    </div>
-    
-    
-  </div>
-  
-
-  
-
-<div class="untree_co-section untree_co-section-4 pb-0"  id="portfolio-section">
-    <div class="container">
-
-
-      <div class="relative"><div class="loader-portfolio-wrap"><div class="loader-portfolio"></div></div> </div>
-      <div id="portfolio-single-holder"></div>
-
-      <div class="portfolio-wrapper">
-
-        <div id="posts" class="row">
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-1.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>Refresh and Revitalize</h3>
-                 
-                  <!-- <p>web, branding</p> -->
-                </div>
-              </div>
-              <img src="images/img_1.jpg" class="lazyload  img-fluid" alt="Images" />
-            </a>
-          </div>
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-2.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="2">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>Elevate Your Style</h3>
-                  <!-- <p>illustration, application</p> -->
-                </div>
-              </div>
-              <img src="images/img_2.jpg" class="lazyload  img-fluid" alt="Images" />
-            </a>
-          </div>
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>Radiant Perfection</h3>
-                  <!-- <p>web, branding</p> -->
-                </div>
-              </div>
-              <img src="images/img_3.jpg" class="lazyload  img-fluid" alt="Images" />
-            </a>
-          </div>
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>Powerful Speaker</h3>
-                  <!-- <p>web, branding</p> -->
-                </div>
-              </div>
-              <img src="images/img_4.jpg" class="lazyload  img-fluid" alt="Images" />
-            </a>
-          </div>
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>beyond limit</h3>
-                  <!-- <p>web, branding</p> -->
-                </div>
-              </div>
-              <img src="images/img_5.jpg" class="lazyload  img-fluid" alt="Images" />
-            </a>
-          </div>
-
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-1.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>FED DIAMOND</h3>
-                  <!-- <p>web, branding</p> -->
-                </div>
-              </div>
-              <img src="images/img_6.png" class="lazyload  img-fluid" alt="Images" />
-            </a>
-          </div>
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-2.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="2">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>BLISSIBLE </h3>
-                  <!-- <p>illustration, application</p> -->
-                </div>
-              </div>
-              <img src="images/img_7.jpg" class="lazyload  img-fluid" alt="Images" />
-            </a>
-          </div>
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>PERFUME </h3>
-                  <!-- <p>web, branding</p> -->
-                </div>
-              </div>
-              <img src="images/img_8.jpg" class="lazyload  img-fluid" alt="Images" />
-            </a>
-          </div>
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>ROSEE WATER </h3>
-                  <!-- <p>web, branding</p> -->
-                </div>
-              </div>
-              <img src="images/img_9.jpg" class="lazyload  img-fluid" alt="Images" />
-            </a>
-          </div>
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>BLISSIBLE </h3>
-                  <!-- <p>web, branding</p> -->
-                </div>
-              </div>
-              <img src="images/img_10.jpg" class="lazyload  img-fluid" alt="Images" />
-            </a>
-          </div>
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>BLISSIBLE </h3>
-                  <!-- <p>web, branding</p> -->
-                </div>
-              </div>
-              <img src="images/img_11.jpg" class="lazyload  img-fluid" alt="Images" />
-            </a>
-          </div>
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>BLISSIBLE EYE LINEAR</h3>
-                  <!-- <p>web, branding</p> -->
-                </div>
-              </div>
-              <img src="images/img_12.jpg" class="lazyload  img-fluid" alt="Images" />
-            </a>
-          </div>
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>BLISSIBLE</h3>
-                  <!-- <p>web, branding</p> -->
-                </div>
-              </div>
-              <img src="images/img_13.jpg" class="lazyload  img-fluid" alt="Images" />
-            </a>
-          </div>
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>BIGLOW</h3>
-                  <!-- <p>web, branding</p> -->
-                </div>
-              </div>
-              <img src="images/image_14.jpg" class="lazyload  img-fluid" alt="Images" />
-            </a>
-          </div>
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3> CHARM LIPSTICK</h3>
-                  <!-- <p>web, branding</p> -->
-                </div>
-              </div>
-              <img src="images/image_15.jpg" class="lazyload  img-fluid" alt="Images" />
-            </a>
-          </div>
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>CUROLGY </h3>
-                  <!-- <p>web, branding</p> -->
-                </div>
-              </div>
-              <img src="images/image_16.jpg" class="lazyload  img-fluid" alt="Images" />
-            </a>
-          </div>
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>STORIES OF TULSI</h3>
-                  <!-- <p>web, branding</p> -->
-                </div>
-              </div>
-              <img src="images/img_13.jpg" class="lazyload  img-fluid" alt="Images" />
-            </a>
-          </div>
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>CBD LOTION</h3>
-                  <!-- <p>web, branding</p> -->
-                </div>
-              </div>
-              <img src="images/2.jpg" class="lazyload  img-fluid" alt="Images" />
-            </a>
-          </div>
-
-
-        </div>
-      </div>
-
-
-        <!-- </div>
-        </div> -->
       </div>
     </div>
 
-
-    <div class="untree_co-section pb-0" id="about-section">
-      <div class="container">
-        <div class="row justify-content-center mb-3">
-          <div class="col-lg-7 mx-auto text-center author-wrap">
-            <img src="images/person_1.jpg" alt="Image" class="img-fluid rounded-circle mb-3">
-            <h3 class="text-black h6 font-weight-bold mb-2 gsap-reveal-hero">shristi</h3>
-            <p  class="gsap-reveal-hero">Photograher and Creator </p>
-          </div>
-        </div>
-
-        <div class="row justify-content-center">
-          <div class="col-lg-7">
-
-
-            <p class="gsap-reveal-hero">Hello, I'm Shristi, a passionate photographer based in the lively city of Lucknow. My journey in photography began with a deep fascination for visual storytelling, and over the years, I've honed my skills to specialize in both portrait and product photography.</p>
-
-            <p class="gsap-reveal-hero">Living in Lucknow, I draw inspiration from the city's rich culture and heritage, often incorporating elements of its vibrant surroundings into my work. As a product photographer, I thrive on the challenge of capturing the essence of various products, highlighting their unique features and enhancing their appeal through creative visuals</p>
-
-            <p class="gsap-reveal-hero">With each click of my camera shutter, I strive to create images that not only capture moments but also evoke emotions and tell stories. Whether it's a portrait session or a product shoot, I approach every project with dedication and attention to detail, ensuring that the final result exceeds expectations.</p>
-
-             
-
-           <p class="slide-in gsap-reveal text center" ></p><a href="https://www.instagram.com/virusphotography100/" target="_blank" class="btn btn-outline-black"> Click and Hire Me </a></p>    
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="untree_co-section pb-0" id="services-section">
-      <div class="container">
-        <div class="row mb-4">
-          <div class="col-lg-7 text-center mx-auto">
-            <h2 class="section-heading gsap-reveal-hero mb-0"><strong>Services</strong></h2>
-            <p class="gsap-reveal-hero">what i provides.</p>
-            <div class="wave gsap-reveal-hero" >
-              <svg>
-                <path d="M10,10 L50,100 L90,50" stroke="#0389ff"></path>
-              </svg>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-
-          <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4">
-            <div class="service text-center">
-              <div class="gsap-reveal-hero mb-3">
-                <span class="icon-service"><img src="images/svg/camera.svg" alt="Image" class="img-fluid"></span>
-              </div>
-              <h3 class="gsap-reveal-hero">Headshot Photography</h3>
-              <p class="gsap-reveal-hero">Specializing in capturing professional headshots for individuals, businesses, actors, models, and professionals in various industries.</p>
-            </div>
-          </div>
-          <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4">
-            <div class="service text-center">
-              <div class="gsap-reveal-hero mb-3">
-                <span class="icon-service"><img src="images/svg/camera.svg" alt="Image" class="img-fluid"></span>
-              </div>
-              <h3 class="gsap-reveal-hero">Landscape Photography</h3>
-              <p class="gsap-reveal-hero">Capturing the beauty of natural landscapes, scenic vistas, and outdoor environments, showcasing the majesty of nature through stunning and immersive images.</p>
-            </div>
-          </div>
-
-          <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4">
-            <div class="service text-center">
-              <div class="gsap-reveal-hero mb-3">
-                <span class="icon-service"><img src="images/svg/camera.svg" alt="Image" class="img-fluid"></span>
-              </div>
-              <h3 class="gsap-reveal-hero">Commercial Photography</h3>
-              <p class="gsap-reveal-hero"> Creating compelling visual content for businesses, advertising agencies, and publications, including branding photos, promotional images. </p>
-            </div>
-          </div>
-
-
-          <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4">
-            <div class="service text-center">
-              <div class="gsap-reveal-hero mb-3">
-                <span class="icon-service"><img src="images/svg/camera.svg" alt="Image" class="img-fluid"></span>
-              </div>
-              <h3 class="gsap-reveal-hero">Product Photography</h3>
-              <p class="gsap-reveal-hero"> Providing high-quality images of products for businesses, e-commerce platforms, and individuals, showcasing the features, details .</p>
-            </div>
-          </div>
-
-          <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4">
-            <div class="service text-center">
-              <div class="gsap-reveal-hero mb-3">
-                <span class="icon-service"><img src="images/svg/camera.svg" alt="Image" class="img-fluid"></span>
-              </div>
-              <h3 class="gsap-reveal-hero">Event Photography</h3>
-              <p class="gsap-reveal-hero"> Documenting special events such as weddings, parties, corporate gatherings, and conferences, capturing candid moments.</p>
-            </div>
-          </div>
-
-          <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4">
-            <div class="service text-center">
-              <div class="gsap-reveal-hero mb-3">
-                <span class="icon-service"><img src="images/svg/camera.svg" alt="Image" class="img-fluid"></span>
-              </div>
-              <h3 class="gsap-reveal-hero">Portrait Photography</h3>
-              <p class="gsap-reveal-hero">Capturing individuals, families, couples, or groups in a variety of settings, such as studios or outdoor locations, to create timeless and personalized portraits.</p>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-
-    <div class="untree_co-section pb-0">
-      <div class="container">
-        <div class="row mb-4">
-          <div class="col-lg-7 text-center mx-auto">
-            <h2 class="section-heading gsap-reveal-hero mb-0"><strong>My Skillset</strong></h2>
-            <p class="gsap-reveal-hero">"Empowering Expertise: Explore My Skill Set"</p>
-            <div class="wave gsap-reveal-hero" >
-              <svg>
-                <path d="M10,10 L50,100 L90,50" stroke="#0389ff"></path>
-              </svg>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="0">
-            <div class="progressbar" data-animate="false">
-              <div class="circle" data-percent="98">
-                <div class="number"></div>
-                <p class="caption">Editing</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="100">
-            <div class="progressbar" data-animate="false">
-              <div class="circle" data-percent="95">
-                <div class="number"></div>
-                <p class="caption"> Shooting skill</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="200">
-            <div class="progressbar" data-animate="false">
-              <div class="circle" data-percent="89">
-                <div class="number"></div>
-                <p class="caption">Designer</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="300">
-            <div class="progressbar" data-animate="false">
-              <div class="circle" data-percent="85">
-                <div class="number"></div>
-                <p class="caption">Photoshop</p>
-
-                
-              </div>
-              
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="untree_co-section testimonial-wrap">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-lg-7 text-center mx-auto">
-            <h2 class="section-heading gsap-reveal-hero mb-0"><strong>Testimonials</strong></h2>
-            <p class="gsap-reveal-hero">What clients say...</p>
-
-            <div class="wave gsap-reveal-hero" >
-              <svg>
-                <path d="M10,10 L50,100 L90,50" stroke="#0389ff"></path>
-              </svg>
-            </div>
-          </div>
-        </div>
-
-
-        <div data-aos="fade-left" data-aos-delay="200">
-
-
-
-          <div class="owl-carousel owl-3-slider">
-            <div class="item">
-              <div class="testimonial-v1">
-                <!-- <img src="images/person_1.jpg" alt="Image" class="img-fluid"> -->
-                <div class="mb-4">
-                  <h3>Mamta singh </h3>
-                  <span class="caption"> product photographer </span>
-                </div>
-                <blockquote>
-                  <p>"Working with Shristi was an absolute pleasure! Her passion for photography and dedication to her craft are evident in the stunning images she delivered for our latest product launch. Not only did she beautifully showcase our products, but she also added an artistic flair that truly made our brand stand out. We're grateful for her talent and professionalism and look forward to collaborating with her again in the future."</p>
-                </blockquote>
-              </div>
-            </div>
-            <!-- END .item -->
-
-            <div class="item">
-              <div class="testimonial-v1">
-                <!-- <img src="images/person_2.jpg" alt="Image" class="img-fluid"> -->
-                <div class="mb-4">
-                  <h3>priyanka singh</h3>
-                  <span class="caption"> product photographer </span>
-                </div>
-                <blockquote>
-                  <p>"As a small business owner, finding a photographer who understands the essence of our brand and can effectively capture it through product images was crucial. Shristi not only met but exceeded our expectations. Her professionalism, creativity, and keen eye for detail shine through in every photograph.</p>
-                </blockquote>
-              </div>
-            </div>
-            <!-- END .item -->
-
-            <div class="item">
-              <div class="testimonial-v1">
-                <!-- <img src="images/person_3.jpg" alt="Image" class="img-fluid"> -->
-                <div class="mb-4">
-                  <h3>vikram singh</h3>
-                  <span class="caption"> video editor  </span>
-                </div>
-                <blockquote>
-                  <p>"Shristi's product photography is simply outstanding! Her attention to detail and ability to showcase our products in the best light truly sets her apart. Working with her has been a breeze, and the results speak for themselves. We couldn't be happier with the images she's produced for our brand."</p>
-                </blockquote>
-              </div>
-            </div>
-            <!-- END .item -->
-
-            <div class="item">
-              <div class="testimonial-v1">
-                <!-- <img src="images/person_1.jpg" alt="Image" class="img-fluid"> -->
-                <div class="mb-4">
-                  <h3>shristi</h3>
-                  <span class="caption">photographer   </span>
-                </div>
-                <blockquote>
-                  <p> "Hiring Shristi for my product photography was one of the best decisions I've made for my business. She has a keen understanding of lighting, composition, and product presentation, which translated into images that exceeded my expectations.</p>
-                </blockquote>
-              </div>
-            </div>
-            <!-- END .item -->
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="untree_co-section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-lg-7 text-center mx-auto">
-            <h2 class="section-heading gsap-reveal-hero mb-0"><strong>Blog Posts</strong></h2>
-            <p class="gsap-reveal-hero">News &amp; Updates</p>
-
-            <div class="wave gsap-reveal-hero" >
-              <svg>
-                <path d="M10,10 L50,100 L90,50" stroke="#0389ff" stroke-width="2"></path>
-              </svg>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-6 col-sm-6 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="0">
-            <div class="post-entry">
-              <a href="#" class="thumb"><img src="images/gal_1.jpg" alt="image" class="img-fluid"></a>
-              <h3><a href="#">"Experience Flawless Radiance with HD Studio BB Cream - Your Secret to Effortless Beauty in High Definition."</a></h3>
-              <div class="post-meta">
-                jan 26 by <a href="#">shrist</a> - <a href="#">Admin</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-sm-6 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
-            <div class="post-entry">
-              <a href="#" class="thumb"><img src="images/gal_2.jpg" alt="image" class="img-fluid"></a>
-              <h3><a href="#">"Find Your Bliss with Blissible - Where Luxury Meets Serenity in Every Drop."</a></h3>
-              <div class="post-meta">
-                jan 26, 2024 by <a href="#">shristi</a> - <a href="#">Admin</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-sm-6 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
-            <div class="post-entry">
-              <a href="#" class="thumb"><img src="images/gal_3.jpg" alt="image" class="img-fluid"></a>
-              <h3><a href="#">"Discover the Natural Elegance of Beet Root with our Lip Butter."</a></h3>
-              <div class="post-meta">
-                jab 26, 2020 by <a href="#">shristi</a> - <a href="#">Admin</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-sm-6 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
-            <div class="post-entry">
-              <a href="#" class="thumb"><img src="images/gal_4.jpg" alt="image" class="img-fluid"></a>
-              <h3><a href="#">"Elevate Your Skincare Ritual with our Ubtan Infused Beauty Essentials."" </a></h3>
-              <div class="post-meta">
-                jan 26, 2024 by <a href="#">shristi</a> - <a href="#">Admin</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="untree_co-section" id="contact-section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-lg-7 text-center mx-auto">
-            <h2 class="section-heading gsap-reveal-hero mb-0"><strong>Contact</strong></h2>
-            <p class="gsap-reveal-hero">Available for work. Get in touch.</p>
-
-            <div class="wave gsap-reveal-hero" >
-              <svg>
-                <path d="M10,10 L50,100 L90,50" stroke="#0389ff"></path>
-              </svg>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-6">
-            <form action="#">
-              <div class="row">
-                <div class="col-lg-6 form-group">
-                  <input type="text" class="form-control" placeholder="Firstname">
-                </div>
-                <div class="col-lg-6 form-group">
-                  <input type="text" class="form-control" placeholder="Lastname">
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-12 form-group">
-                  <input type="email" class="form-control" placeholder="Email address">
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-12 form-group">
-                  <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Write your message..."></textarea>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-12 form-group">
-                  <input type="submit" class="btn btn-black" value="Send Message">
-                </div>
-              </div>
-            </form>
-          </div>
-          <div class="col-lg-6">
-            <div id="map">
-              <iframe src="https://maps.google.com/maps?q=lucknow&output=embed" width="100%" height="500px" frameborder="0" style="border:1" allowfullscreen></iframe>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="site-footer">
+    <div class="footer-bottom">
       <div class="container">
 
-        <div class="row">
-          <div class="col-lg-3">
-            <div class="widget">
-              <h3>Home</h3>
-              <ul class="list-unstyled float-left links">
-                
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Terms</a></li>
-                <li><a href="#">Privacy</a></li>
-              </ul>
-            </div> <!-- /.widget -->
-          </div> <!-- /.col-lg-3 -->
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.svg" width="30" height="30" loading="lazy" alt="Richard home">
+        </a>
 
-          <div class="col-lg-3">
-            <div class="widget">
-              <h3>Projects</h3>
-              <ul class="list-unstyled float-left links">
-                <li><a href="#">Portrait Series</a></li>
-                <li><a href="#">Nature Exploration:</a></li>
-                <li><a href="#">Fashion Editorial</a></li>
-                <li><a href="#">Food Photography Showcase</a></li>
-                <li><a href="#">Personal Journey Series</a></li>
-              </ul>
-            </div> <!-- /.widget -->
-          </div> <!-- /.col-lg-3 -->
+        <ul class="social-list">
 
-          <div class="col-lg-3">
-            <div class="widget">
-              <h3>Services</h3>
-              <ul class="list-unstyled float-left links">
-                <li><a href="#">Portrait Photography</a></li>
-                <li><a href="#">Product Photography</a></li>
-                <li><a href="#">Candid Photography</a></li>
-                <li><a href="#"> Commercial Photography</a></li>
-              </ul>
-            </div> <!-- /.widget -->
-          </div> <!-- /.col-lg-3 -->
+          <li>
+            <a href="#" class="social-link">Facebook.</a>
+          </li>
 
+          <li>
+            <a href="#" class="social-link">Instagram.</a>
+          </li>
 
-          <div class="col-lg-3">
-            <div class="widget">
-              <h3>Contact</h3>
-              <address>india,Lucknow</address>
-              <ul class="list-unstyled links mb-4">
-                <li><a href="tel://11234567890">+91 80041*****</a></li>
-                <li><a href="tel://11234567890"> +91  80041*****</a></li>
-                <li><a href="mailto:info@mydomain.com">info@gmail.com</a></li>
-              </ul>
+          <li>
+            <a href="#" class="social-link">Twitter.</a>
+          </li>
 
-              <h3>Connect</h3>
-              <ul class="list-unstyled social">
-                <li><a href="#"><span class="icon-instagram"></span></a></li>
-                <li><a href="#"><span class="icon-twitter"></span></a></li>
-                <li><a href="#"><span class="icon-facebook"></span></a></li>
-                <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                <li><a href="#"><span class="icon-pinterest"></span></a></li>
-                <li><a href="#"><span class="icon-dribbble"></span></a></li>
-              </ul>
+        </ul>
 
-            </div> <!-- /.widget -->
-          </div> <!-- /.col-lg-3 -->
+        <p class="copyright">Made with love</p>
 
-        </div> <!-- /.row -->
-
-
-
-
-
-        <div class="row mt-5">
-          <div class="col-12 text-center">
-            <!-- 
-              **==========
-              NOTE: 
-              Please don't remove this copyright link unless you buy the license here https://untree.co/license/  
-
-              **==========
-            -->
-            <p class="mb-0">Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; Designed with love by singh vikram</a> 
-            </p>
-          </div>
-        </div>
-      </div> <!-- /.container -->
-    </div> <!-- /.site-footer -->
-
-    <div id="overlayer"></div>
-    <div class="loader">
-      <div class="spinner-border" role="status">
-        <span class="sr-only">Loading...</span>
       </div>
     </div>
-   
-    <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.animateNumber.min.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.fancybox.min.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/wave-animate.js"></script>
-    <script src="js/circle-progress.js"></script>
-    <script src="js/imagesloaded.pkgd.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/TweenMax.min.js"></script>
-    <script src="js/ScrollMagic.min.js"></script>
-    <script src="js/scrollmagic.animation.gsap.min.js"></script>
 
-      <script src="script.js"></script>
-    <script src="js/custom.js"></script>
-    
-  </body>
+    <div class="footer-bg has-before">
+      <img src="./assets/images/footer-bg.jpg" width="1920" height="1135" loading="lazy" alt="photography"
+        class="img-cover">
+    </div>
 
-  </html>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>0%</a>
+
+
+
+
+
+  <!-- 
+    - #CUSTOM CURSOR
+  -->
+
+  <div class="cursor" data-cursor></div>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
